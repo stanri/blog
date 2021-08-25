@@ -1,0 +1,36 @@
+ua:
+  posts:
+    form:
+     submit:
+      '%{action} статтю'
+    new:
+      title: 'Нова стаття'
+    index:
+      title: 'Статті'
+    edit:
+      title: 'Редагування статті'
+  common:
+     back: 'Назад'
+     errors: 'При заповненні форми виникли помилки!'
+  will_paginate:
+    previous_label: '&larr; Назад'
+    next_label: 'Вперед &rarr;'
+  admin: 
+    posts:
+      form:
+        submit:
+          '%{action} статтю'
+      new:
+        title: 'Нова стаття'
+      edit:
+        title: 'Редагування статті'
+    categories:
+      form:
+        submit:
+          '%{action} категорию'
+      new:
+        title: 'Нова категорія'
+      index:
+        title: 'Категорії'
+      edit:
+        title: 'Редагування категорії'

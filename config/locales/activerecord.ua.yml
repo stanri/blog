@@ -1,0 +1,16 @@
+ua: 
+  activerecord:
+    models:
+      post: 'Стаття'
+    attributes:
+      post:
+        title: 'Назва'
+        summary: 'Коротка стаття'
+        body: 'Зміст'
+        all_tags: 'Теги'
+      category:
+        name: 'Назва'
+        parent_id: 'Категорія батько'
+    errors:
+      messages:
+        blank: 'не може бути порожньою!'
